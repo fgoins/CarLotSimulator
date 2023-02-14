@@ -17,6 +17,14 @@ namespace CarLotSimulator
             //Now that the Car class is created we can instanciate 3 new cars
             //Set the properties for each of the cars
             //Call each of the methods for each car
+            Car car1 = new Car();
+
+            car1.make = "Genesis";
+            car1.model = "gv60";
+            car1.year = 2023;
+            car1.isDriveable = true;
+            car1.EngineNoise = "voom";
+            car1.HonkNoise = "beep";
 
             //*************BONUS*************//
 
